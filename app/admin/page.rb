@@ -1,4 +1,5 @@
 ActiveAdmin.register Page do
+  permit_params 
 
   
   # See permitted parameters documentation:
