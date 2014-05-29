@@ -1,5 +1,5 @@
 class PostCommentsController < ApplicationController
-  before_action :set_post_comment, only: [:show, :edit, :update, :destroy]
+  before_action :set_post_comment, only: [:show, :edit, :update, :destroy, :vote]
 
   # GET /post_comments
   # GET /post_comments.json
